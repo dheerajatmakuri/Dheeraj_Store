@@ -1,3 +1,8 @@
+## You can visit the live demo of this project at the following links:
+
+- [Dheeraj Store on Vercel](https://dheeraj-store.vercel.app/)
+- [Dheeraj Store on Netlify](https://dheeraj-store.netlify.app/)
+
 ## Technologies Used
 - **HTML**: For the structure of the web pages.
 - **CSS**: For styling and layout.
