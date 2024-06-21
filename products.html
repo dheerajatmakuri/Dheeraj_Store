@@ -10,11 +10,11 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-  
+
 
     <link rel="stylesheet" href="style.css" />
-    <title>Dheeraj Store</title>
     <link rel="icon" type="image/svg+xml" href="/images/header.png" />
+    <title>Dheeraj Store</title>
   </head>
   <body>
     <header class="section-navbar">
@@ -43,36 +43,35 @@
         </div>
 
         <nav class="navbar">
-          <ul>
+          <ul class="nav-menu">
             <li class="nav-item">
               <a href="index.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a href="about.html" class="nav-link">about</a>
+              <a href="about.html" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-              <a href="products.html" class="nav-link">products</a>
+              <a href="products.html" class="nav-link">Products</a>
             </li>
             <li class="nav-item">
-              <a href="contact.html" class="nav-link">contact</a>
+              <a href="contact.html" class="nav-link">Contact</a>
             </li>
             <li class="nav-item">
-              <a
-                href="addToCart.html"
-                class="nav-link add-to-cart-button"
-                id="cartValue"
-              >
-                <i class="fa-solid fa-cart-shopping"> 0 </i>
+              <a href="addToCart.html" class="nav-link add-to-cart-button" id="cartValue">
+                <i class="fas fa-cart-shopping"></i>
+                <span>0</span>
               </a>
             </li>
           </ul>
         </nav>
+
       </div>
     </header>
 
+
     <!-- ========== Start Extra Product Section ========== -->
     <section class="section-extra-product">
-      <div class="container grid grid-three--cols">
+      <div class="container grid grid-three--cols extra">
         <div class="div-extra grid grid-two--cols">
           <div class="extra-text">
             <p>new year sale</p>
@@ -157,9 +156,9 @@
 
     <!-- ========== Start Our Products Section ========== -->
 
-    <section class="section-products container">
-      <div class="">
-        <h2 class="section-common--heading">Checkout Dheeraj Store</h2>
+    <section class="section-products">
+      <div class="container">
+        <h1 class="section-common--heading">Checkout Dheeraj Store</h1>
       </div>
 
       <section class="container">
@@ -177,13 +176,16 @@
             <img class="productImage" src="" alt="" />
           </div>
           <h2 class="productName"></h2>
-
+          
           <div class="productRating">
             <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
             <i class="fa-solid fa-star"></i>
           </div>
+
+          <h3 class="productBrand"></h3>
 
           <p class="productDescription"></p>
 
@@ -193,12 +195,12 @@
           </div>
 
           <div class="productStockElement">
-            <p class="productProperty">Total Stocks Available:</p>
+            <p class="productProperty">Total Units Available:</p>
             <p class="productStock"></p>
           </div>
 
           <div class="productQuantityElement">
-            <p class="productProperty">Quantity(Pieces)</p>
+            <p class="productProperty">Quantity</p>
             <div class="stockElement">
               <button class="cartIncrement">+</button>
               <p class="productQuantity">1</p>
@@ -206,7 +208,7 @@
             </div>
           </div>
 
-          <button class="add-to-cart-button">
+          <button class="add-cart-button">
             <i class="fa-solid fa-cart-shopping"></i> Add To Cart
           </button>
         </article>
@@ -217,15 +219,152 @@
 
     <!-- ========== End Our Products Section ========== -->
 
-    <!--* ========== Start Footer Section ========== -->
+    <!-- ========== Start Why Choose Us Section ========== -->
+    <section class="section-why--choose">
+      <div class="container">
+        <h2 class="section-common--heading">Why Choose Dheeraj Store</h2>
+        <p class="section-common--subheading">
+          Choose Dheeraj EduHub for a holistic, enriching learning experience that
+          empowers you to achieve your goals.
+        </p>
+      </div>
 
+      <div class="container grid grid-three--cols">
+        <div class="choose-left-div text-align--right">
+          <div class="why-choose--div" data-aos="zoom-in-up" data-aos-delay="0">
+            <p class="common-text--highlight">1</p>
+            <h3 class="section-common--title">Wide Selection</h3>
+            <p>
+              Dheeraj Store offers a diverse range of gadgets, from smartphones to
+              smart home devices, ensuring you find what you need to elevate
+              your lifestyle and meet your tech requirements.
+            </p>
+          </div>
+
+          <div
+            class="why-choose--div"
+            data-aos="zoom-in-up"
+            data-aos-delay="300"
+          >
+            <p class="common-text--highlight">2</p>
+            <h3 class="section-common--title">Quality Assurance</h3>
+            <p>
+              Every gadget at Dheeraj Store undergoes rigorous quality checks,
+              guaranteeing reliability and performance, so you can shop with
+              confidence knowing you're getting the best.
+            </p>
+          </div>
+
+          <div
+            class="why-choose--div"
+            data-aos="zoom-in-up"
+            data-aos-delay="600"
+          >
+            <p class="common-text--highlight">3</p>
+            <h3 class="section-common--title">Competitive Prices</h3>
+            <p>
+              Enjoy great value with Dheeraj Store's competitive prices on
+              high-quality gadgets, making top-of-the-line technology accessible
+              to all without compromising on quality or performance.
+            </p>
+          </div>
+        </div>
+        <div class="choose-center-div" data-aos="zoom-in" data-aos-delay="300">
+          <figure>
+            <img src="/images/ecomposts.png" alt="Dheeraj technical home page " />
+          </figure>
+        </div>
+        <div class="choose-right-div">
+          <div
+            class="why-choose--div text-align--left"
+            data-aos="zoom-in-up"
+            data-aos-delay="0"
+          >
+            <p class="common-text--highlight">4</p>
+            <h3 class="section-common--title">Expert Guidance</h3>
+            <p>
+              Our knowledgeable staff provides expert guidance, helping you
+              choose the right gadget to meet your needs and preferences,
+              ensuring you make informed decisions every step of the way.
+            </p>
+          </div>
+
+          <div
+            class="why-choose--div text-align--left"
+            data-aos="zoom-in-up"
+            data-aos-delay="300"
+          >
+            <p class="common-text--highlight">5</p>
+            <h3 class="section-common--title">Convenient Shopping</h3>
+            <p>
+              With Dheeraj Store, shopping for gadgets is easy and convenient. Our
+              user-friendly website and secure payment options ensure a seamless
+              experience from browsing to checkout, all from the comfort of your
+              home.
+            </p>
+          </div>
+
+          <div
+            class="why-choose--div text-align--left"
+            data-aos="zoom-in-up"
+            data-aos-delay="600"
+          >
+            <p class="common-text--highlight">6</p>
+            <h3 class="section-common--title">Excellent Service</h3>
+            <p>
+              Dheeraj Store is committed to providing excellent service to our
+              customers. From prompt assistance with inquiries to efficient
+              handling of orders and deliveries, we prioritize your satisfaction
+              every step of the way.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== End   Why Choose Us Section ========== -->
+
+    <!-- ========== Start footer Section ========== -->
     <footer class="section-footer">
-      <script src="footer.js"></script>
+      <div class="footer-container container">
+        <div class="content_1">
+          <img src="/images/DheerajStorefooter.png" alt="logo" />
+          <p>
+            Welcome to Dheeraj EcomStore, your ultimate destination for
+            cutting-edge gadgets!
+          </p>
+          <img src="./public/images/cards.png" alt="cards" />
+        </div>
+        <div class="content_2">
+          <h4>SHOPPING</h4>
+          <a href="#">Computer Store</a>
+          <a href="#">Laptop Store</a>
+          <a href="#">Accessories</a>
+          <a href="#">Sales & Discount</a>
+        </div>
+        <div class="content_3">
+          <h4>Experience</h4>
+          <a href="./contact.html">Contact Us</a>
+          <a href="" target="_blank">Payment Method</a>
+          <a href="" target="_blank">Delivery</a>
+          <a href="" target="_blank">Return and Exchange</a>
+        </div>
+        <div class="content_4">
+          <h4>NEWSLETTER</h4>
+          <p>Be the first to know about new<br />arrivals, sales & promos!</p>
+          <div class="f-mail">
+            <input type="email" id="email" name="email" placeholder="Your Email">
+            <i class="bx bx-envelope"></i>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <div class="f-design">
+        <div class="f-design-txt">
+          <p>Design and Coded by Dheeraj</p>
+        </div>
+      </div>
     </footer>
-    <!-- Include the footer JavaScript file -->
-
-    <!--* ========== End Footer Section ========== -->
-
-    <script type="module" src="main.js"></script>
+    <!-- ========== End footer Section ========== -->
+    <script type="module" src="./main.js"></script>
   </body>
 </html>

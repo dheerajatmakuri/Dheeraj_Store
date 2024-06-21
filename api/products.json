@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Apple Macbook M3 Max",
+    "name": "Apple Macbook M3",
     "category": "Computers",
     "brand": "Brand: Apple",
     "price": 200000.00,
@@ -11,7 +11,7 @@
   },
   {
     "id": 2,
-    "name": "Apple Iphone 16 Pro Max",
+    "name": "Iphone 16Pro Max",
     "category": "Mobiles",
     "brand": "Brand: Apple",
     "price": 80000.00,
@@ -21,7 +21,7 @@
   },
   {
     "id": 3,
-    "name": "Beats Wireless Headphones",
+    "name": "Beats Wireless",
     "category": "Audio",
     "brand": "Brand: Beats",
     "price": 15000.00,
@@ -31,7 +31,7 @@
   },
   {
     "id": 4,
-    "name": "Samsung Galaxy Watch8",
+    "name": "Galaxy Watch8",
     "category": "Wearables",
     "brand": "Brand: Samsung",
     "price": 10000.00,
@@ -41,7 +41,7 @@
   },
   {
     "id": 5,
-    "name": "Bose S1 Pro Home Theatre",
+    "name": "Bose S1 Pro",
     "category": "Audio",
     "brand": "Brand: Bose",
     "price": 30000.00,
@@ -51,7 +51,7 @@
   },
   {
     "id": 6,
-    "name": "LG OLED 75 Inch Smart TV",
+    "name": "LG OLED 75",
     "category": "Video",
     "brand": "Brand: LG",
     "price": 66000.00,

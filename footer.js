@@ -7,7 +7,7 @@ const footerHTML = `
             Welcome to Dheeraj EcomStore, your ultimate destination for
             cutting-edge gadgets!
           </p>
-          <img src="https://i.postimg.cc/Nj9dgJ98/cards.png" alt="cards" />
+          <img src="/images/cards.png" alt="cards" />
         </div>
         <div class="content_2">
           <h4>SHOPPING</h4>

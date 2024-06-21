@@ -1,10 +1,15 @@
 import { addToCart } from "/addToCart.js";
 import { homeQuantityToggle } from "/homeQuantityToggle.js";
 
-const productContainer = document.querySelector("#productContainer");
-const productTemplate = document.querySelector("#productTemplate");
+const showProductContainer = (products) => {
+  const productContainer = document.querySelector("#productContainer");
+  const productTemplate = document.querySelector("#productTemplate");
 
-export const showProductContainer = (products) => {
+  if (!productTemplate) {
+    console.error('productTemplate is null');
+    return;
+  }
+
   if (!products) {
     return false;
   }
@@ -104,3 +109,9 @@ export const showProductContainer = (products) => {
     productContainer.append(productClone);
   });
 };
+
+document.addEventListener('DOMContentLoaded', () => {
+  // You can now call showProductContainer with your product data here
+});
+
+export { showProductContainer };
