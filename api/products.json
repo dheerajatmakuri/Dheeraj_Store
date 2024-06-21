@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Apple Macbook M3 Max",
+    "category": "Computers",
+    "brand": "Brand: Apple",
+    "price": 200000.00,
+    "stock": 50,
+    "description": "Powerful laptop with a 8-core CPU, 10-core GPU, 16‑core Neural Engine 8GB unified memory 256GB SSD storage",
+    "image": "/images/lapi.png"
+  },
+  {
+    "id": 2,
+    "name": "Apple Iphone 16 Pro Max",
+    "category": "Mobiles",
+    "brand": "Brand: Apple",
+    "price": 80000.00,
+    "stock": 40,
+    "image": "/images/iphone.png",
+    "description": "Feature-rich smartphone with a Super Retina XDR display, Triple camera, 512GB storage, 4000mAh battery."
+  },
+  {
+    "id": 3,
+    "name": "Beats Wireless Headphones",
+    "category": "Audio",
+    "brand": "Brand: Beats",
+    "price": 15000.00,
+    "stock": 80,
+    "image": "/images/headphone.png",
+    "description": "High-quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek black color."
+  },
+  {
+    "id": 4,
+    "name": "Samsung Galaxy Watch8",
+    "category": "Wearables",
+    "brand": "Brand: Samsung",
+    "price": 10000.00,
+    "stock": 70,
+    "image": "/images/watch.png",
+    "description": "Smartwatch with a 2-inch AMOLED display, water-resistant design, fitness tracking features, and a stylish colors."
+  },
+  {
+    "id": 5,
+    "name": "Bose S1 Pro Home Theatre",
+    "category": "Audio",
+    "brand": "Brand: Bose",
+    "price": 30000.00,
+    "stock": 30,
+    "image": "/images/speakers.png",
+    "description": "High-quality wireless speakers with top-notch audio, 20 hours of battery life, and a sleek black color."
+  },
+  {
+    "id": 6,
+    "name": "LG OLED 75 Inch Smart TV",
+    "category": "Video",
+    "brand": "Brand: LG",
+    "price": 66000.00,
+    "stock": 20,
+    "image": "/images/tv.png",
+    "description": "75 Inch 8K OLED with Built in Google system, Spatial Audio, 14 inbuilt OTTs, and a stylish and Sleek Design"
+  }
+]
